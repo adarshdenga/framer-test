@@ -1,16 +1,10 @@
-import { motion } from "framer-motion";
 import "./App.css";
+import First from "./components/First";
 
-function App() {
+export default function App() {
   return (
     <div className="container">
-      <div className="flex flex-col text-9xl font-poppins font-semibold">
-        <p>text</p>
-        <p>text</p>
-        <p>text</p>
-      </div>
+      <First />
     </div>
   );
 }
-
-export default App;
