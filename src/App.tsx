@@ -1,10 +1,10 @@
 import "./App.css";
-import First from "./components/First";
+import Home from "./components/Home";
 
 export default function App() {
   return (
     <div className="container">
-      <First />
+      <Home />
     </div>
   );
 }
