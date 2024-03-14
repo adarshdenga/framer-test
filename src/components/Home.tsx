@@ -1,13 +1,4 @@
 import { motion } from "framer-motion";
-import pica from "../assets/stockimages/pica.png";
-import picb from "../assets/stockimages/picb.png";
-import picc from "../assets/stockimages/picc.png";
-import picd from "../assets/stockimages/picd.png";
-import pice from "../assets/stockimages/pice.png";
-import picf from "../assets/stockimages/picf.png";
-import picg from "../assets/stockimages/picg.png";
-import pich from "../assets/stockimages/pich.png";
-import pici from "../assets/stockimages/pici.png";
 
 export default function Home() {
   const columnVariants = {
@@ -24,91 +15,194 @@ export default function Home() {
 
   const imageUpVariants = {
     hidden: {
-      y: 1000,
+      y: 1500,
     },
     visible: {
       y: 0,
-      transition: { duration: 2, ease: [0, 0.52, 0.92, 0.31] },
+      transition: { duration: 3, ease: [0, 0.52, 0.92, 0.31] },
     },
   };
 
   const imageDownVariants = {
     hidden: {
-      y: -1000,
+      y: -1500,
     },
     visible: {
       y: 0,
-      transition: { duration: 2, ease: [0, 0.52, 0.92, 0.31] },
+      transition: { duration: 3, ease: [0, 0.52, 0.92, 0.31] },
     },
   };
 
   return (
-    <div className="flex flex-row gap-2 overflow-y-hidden">
+    <div className="flex flex-row gap-10">
+      {/* B - T  */}
       <motion.div
-        className="flex flex-col w-1/3 gap-2"
+        className="flex flex-col-reverse w-1/2 gap-10"
         variants={columnVariants}
         initial="hidden"
         animate="visible"
       >
-        <motion.img
-          className="h-1/3 object-cover"
-          src={pica}
-          variants={imageUpVariants}
-        ></motion.img>
-        <motion.img
-          className="h-1/3 object-cover"
-          src={picb}
-          variants={imageUpVariants}
-        ></motion.img>
-        <motion.img
-          className="h-1/3 object-cover"
-          src={picc}
-          variants={imageUpVariants}
-        ></motion.img>
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+          transition={{ delay: 3 }}
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
       </motion.div>
+
+      {/* T - B  */}
       <motion.div
-        className="flex flex-col-reverse w-1/3 gap-2"
+        className="flex flex-col w-1/2 gap-10 overflow-y-hidden "
         variants={columnVariants}
         initial="hidden"
         animate="visible"
       >
-        <motion.img
-          className="h-1/3 object-cover"
-          src={picd}
-          variants={imageDownVariants}
-        ></motion.img>
-        <motion.img
-          className="h-1/3 object-cover"
-          src={pice}
-          variants={imageDownVariants}
-        ></motion.img>
-        <motion.img
-          className="h-1/3 object-cover"
-          src={picf}
-          variants={imageDownVariants}
-        ></motion.img>
+        <motion.div
+          variants={imageUpVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageUpVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+          transition={{ delay: 3 }}
+        ></motion.div>
+
+        <motion.div
+          variants={imageUpVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageUpVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageUpVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
       </motion.div>
+
+      {/* B - T  */}
       <motion.div
-        className="flex flex-col w-1/3 gap-2"
+        className="flex flex-col-reverse w-1/2 gap-10"
         variants={columnVariants}
         initial="hidden"
         animate="visible"
       >
-        <motion.img
-          className="h-1/3 object-cover"
-          src={picg}
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+          transition={{ delay: 3 }}
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+      </motion.div>
+
+      {/* T - B  */}
+      <motion.div
+        className="flex flex-col w-1/2 gap-10 overflow-y-hidden "
+        variants={columnVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.div
           variants={imageUpVariants}
-        ></motion.img>
-        <motion.img
-          className="h-1/3 object-cover"
-          src={pich}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
           variants={imageUpVariants}
-        ></motion.img>
-        <motion.img
-          className="h-1/3 object-cover"
-          src={pici}
+          className="bg-stone-950 aspect-video rounded-lg"
+          transition={{ delay: 3 }}
+        ></motion.div>
+
+        <motion.div
           variants={imageUpVariants}
-        ></motion.img>
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageUpVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageUpVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+      </motion.div>
+
+      {/* B - T  */}
+      <motion.div
+        className="flex flex-col-reverse w-1/2 gap-10"
+        variants={columnVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+          transition={{ delay: 3 }}
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
+
+        <motion.div
+          variants={imageDownVariants}
+          className="bg-stone-950 aspect-video rounded-lg"
+        ></motion.div>
       </motion.div>
     </div>
   );

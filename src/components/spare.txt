@@ -1,0 +1,203 @@
+import pica from "../assets/stockimages/pica.png";
+import picb from "../assets/stockimages/picb.png";
+import picc from "../assets/stockimages/picc.png";
+import picd from "../assets/stockimages/picd.png";
+import pice from "../assets/stockimages/pice.png";
+import picf from "../assets/stockimages/picf.png";
+import picg from "../assets/stockimages/picg.png";
+import pich from "../assets/stockimages/pich.png";
+import pici from "../assets/stockimages/pici.png";
+import picj from "../assets/stockimages/picj.png";
+import pick from "../assets/stockimages/pick.png";
+import picl from "../assets/stockimages/picl.png";
+import picm from "../assets/stockimages/picm.png";
+import picn from "../assets/stockimages/picn.png";
+import pico from "../assets/stockimages/pico.png";
+import picp from "../assets/stockimages/picp.png";
+import picq from "../assets/stockimages/picq.png";
+import picr from "../assets/stockimages/picr.png";
+import pics from "../assets/stockimages/pics.png";
+import pict from "../assets/stockimages/pict.png";
+import picu from "../assets/stockimages/picu.png";
+import picv from "../assets/stockimages/picv.png";
+import picw from "../assets/stockimages/picw.png";
+import picx from "../assets/stockimages/picx.png";
+import picy from "../assets/stockimages/picy.png";
+
+
+<div className="flex flex-row  justify-center items-center gap-10 overflow-y-hidden">
+      {/* B - T  */}
+      <motion.div
+        className="flex flex-col-reverse w-1/3 gap-10"
+        variants={columnVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.img
+          className="aspect-video object-cover"
+          src={pica}
+          variants={imageDownVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picb}
+          variants={imageDownVariants}
+          transition={{ delay: 2 }}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picc}
+          variants={imageDownVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picd}
+          variants={imageDownVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={pice}
+          variants={imageDownVariants}
+        ></motion.img>
+      </motion.div>
+
+      {/* T - B  */}
+      <motion.div
+        className="flex flex-col w-1/3 gap-10"
+        variants={columnVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.img
+          className="aspect-video object-cover"
+          src={picf}
+          variants={imageUpVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picg}
+          variants={imageUpVariants}
+          transition={{ delay: 2 }}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={pich}
+          variants={imageUpVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={pici}
+          variants={imageUpVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picj}
+          variants={imageUpVariants}
+        ></motion.img>
+      </motion.div>
+
+      {/* B - T  */}
+      <motion.div
+        className="flex flex-col-reverse w-1/3 gap-10"
+        variants={columnVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.img
+          className="aspect-video object-cover"
+          src={pick}
+          variants={imageDownVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picl}
+          variants={imageDownVariants}
+          transition={{ delay: 2 }}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picm}
+          variants={imageDownVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picn}
+          variants={imageDownVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={pico}
+          variants={imageDownVariants}
+        ></motion.img>
+      </motion.div>
+
+      {/* T - B  */}
+      <motion.div
+        className="flex flex-col w-1/3 gap-10"
+        variants={columnVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.img
+          className="aspect-video object-cover"
+          src={picp}
+          variants={imageUpVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picq}
+          variants={imageUpVariants}
+          transition={{ delay: 2 }}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picr}
+          variants={imageUpVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={pics}
+          variants={imageUpVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={pict}
+          variants={imageUpVariants}
+        ></motion.img>
+      </motion.div>
+
+      {/* B - T  */}
+      <motion.div
+        className="flex flex-col-reverse w-1/3 gap-10"
+        variants={columnVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.img
+          className="aspect-video object-cover"
+          src={picu}
+          variants={imageDownVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picv}
+          variants={imageDownVariants}
+          transition={{ delay: 2 }}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picw}
+          variants={imageDownVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picx}
+          variants={imageDownVariants}
+        ></motion.img>
+        <motion.img
+          className="aspect-video object-cover"
+          src={picy}
+          variants={imageDownVariants}
+        ></motion.img>
+      </motion.div>
+    </div>
