@@ -3,5 +3,83 @@
 @tailwind utilities;
 
 body {
-    @apply bg-stone-900;
+  @apply bg-stone-900;
+}
+
+.bottomToTopCols > img {
+  animation-name: slideInFromBottom;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: cubic-bezier(0.41, 0.01, 0.16, 0.94);
+  animation-timing-function: cubic-bezier(0.41, 0.01, 0.16, 0.94);
+}
+
+.topToBottomCols > img {
+  animation-name: slideInFromTop;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: cubic-bezier(0.41, 0.01, 0.16, 0.94);
+  animation-timing-function: cubic-bezier(0.41, 0.01, 0.16, 0.94);
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(1000px);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-1000px);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.imgboard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: hidden;
+}
+
+.imgboard > img {
+  opacity: 0;
+}
+
+.bottomToTopCols img:nth-child(1) {
+  animation-delay: 2s;
+}
+.bottomToTopCols img:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.bottomToTopCols img:nth-child(3) {
+  animation-delay: 1s;
+}
+.bottomToTopCols img:nth-child(4) {
+  animation-delay: 0.5s;
+}
+
+.topToBottomCols img:nth-child(1) {
+  animation-delay: 2s;
+}
+.topToBottomCols img:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.topToBottomCols img:nth-child(3) {
+  animation-delay: 1s;
+}
+.topToBottomCols img:nth-child(4) {
+  animation-delay: 0.5s;
 }
