@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import pica from "../assets/stockimages/pica.png";
 import picb from "../assets/stockimages/picb.png";
 import picc from "../assets/stockimages/picc.png";
@@ -23,14 +24,12 @@ import picv from "../assets/stockimages/picv.png";
 import picw from "../assets/stockimages/picw.png";
 import picx from "../assets/stockimages/picx.png";
 import picy from "../assets/stockimages/picy.png";
-import { useState, useEffect } from "react";
 
 export default function Home() {
   const [animationStarted, setAnimationStarted] = useState(false);
 
   useEffect(() => {
-    // Trigger animation when component mounts
-    setAnimationStarted(true);
+    // Preload images
   }, []);
 
   return (

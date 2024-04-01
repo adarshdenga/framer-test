@@ -58,7 +58,7 @@ body {
   opacity: 0;
 }
 
-.bottomToTopCols img:nth-child(1) {
+/* .bottomToTopCols img:nth-child(1) {
   animation-delay: 2s;
 }
 .bottomToTopCols img:nth-child(2) {
@@ -82,4 +82,4 @@ body {
 }
 .topToBottomCols img:nth-child(4) {
   animation-delay: 0.5s;
-}
+} */
