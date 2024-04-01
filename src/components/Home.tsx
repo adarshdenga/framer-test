@@ -34,7 +34,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="imgboard flex flex-row gap-10">
+    <div className="flex flex-row gap-10">
       {/* B - T */}
       <div className="bottomToTopCols flex flex-col-reverse w-1/5 gap-10">
         <img
