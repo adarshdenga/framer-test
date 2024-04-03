@@ -201,3 +201,7 @@ import picy from "../assets/stockimages/picy.png";
         ></motion.img>
       </motion.div>
     </div>
+
+
+
+    https://prod.spline.design/kI0BOk-VgqdAin2r/scene.splinecode
