@@ -1,10 +1,10 @@
 import "./App.css";
-import Phone from "./components/Phone";
+import Content from "./components/Content";
 
 export default function App() {
   return (
     <div>
-      <Phone />
+      <Content />
     </div>
   );
 }

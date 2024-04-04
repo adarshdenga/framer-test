@@ -14,6 +14,7 @@ export default {
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
       barlow: ['Barlow', 'sans-serif'],
+      inter: ['Inter', 'sans-serif'],
     },
     container: {
       center: true,
