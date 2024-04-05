@@ -10,7 +10,6 @@ export default function Phone() {
           The Moon is Earth's only natural satellite. It orbits at an average
           distance of 384,400 km, about 30 times the diameter of Earth.
         </div>
-        <div>Learn More</div>
       </div>
       <Spline scene="https://prod.spline.design/lAEEcfuMEorrJ2T9/scene.splinecode"></Spline>
     </div>
