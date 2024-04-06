@@ -10,16 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/fiber": "^8.16.1",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.0.91",
     "framer-motion": "^11.0.24",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "spline": "^0.0.0"
+    "spline": "^0.0.0",
+    "three": "^0.163.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
+    "@types/three": "^0.163.0",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
     "@vitejs/plugin-react": "^4.2.1",

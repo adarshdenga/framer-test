@@ -1,10 +1,10 @@
 import "./App.css";
-import Content from "./components/Content";
+import MoonScene from "./components/MoonScene";
 
 export default function App() {
   return (
     <div>
-      <Content />
+      <MoonScene />
     </div>
   );
 }

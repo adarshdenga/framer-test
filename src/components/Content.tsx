@@ -1,4 +1,3 @@
-import Spline from "@splinetool/react-spline";
 import TextSwitcher from "./TextSwitcher";
 
 export default function Phone() {
@@ -11,7 +10,6 @@ export default function Phone() {
           distance of 384,400 km, about 30 times the diameter of Earth.
         </div>
       </div>
-      <Spline scene="https://prod.spline.design/lAEEcfuMEorrJ2T9/scene.splinecode"></Spline>
     </div>
   );
 }
