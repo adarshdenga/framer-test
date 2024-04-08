@@ -7,7 +7,7 @@ export default function Phone() {
         <TextSwitcher />
         <div className="text-lg font-poppins">
           The Moon is Earth's only natural satellite. It orbits at an average
-          distance of 384,400 km, about 30 times the diameter of Earth. xx
+          distance of 384,400 km, about 30 times the diameter of Earth.
         </div>
       </div>
     </div>
